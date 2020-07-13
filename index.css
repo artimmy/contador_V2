@@ -1,6 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+
 p {
     text-align: center;
     font-size: 60px;
     margin-top: 0px;
 }
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 50%; 
+    min-height: 50%;
+  }
